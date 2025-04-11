@@ -1,0 +1,35 @@
+1. Fazendo Pull (Atualizar seu repositório local)
+    1 - Abra o repositório no VS Code (se já não estiver aberto).
+    2 - Acesse a aba "Source Control" (ícone de ramificação no menu lateral esquerdo ou Ctrl + Shift + G).
+    3 - Clique nos três pontos (...) no topo da aba e selecione Pull.
+      
+      Ou use o atalho no terminal integrado:
+      git pull origin main
+      (Substitua main pelo nome da sua branch, se for diferente.)
+
+------------------------------------------------------------------------------------------------------------------------
+      
+2. Fazendo Push (Enviar alterações para o GitHub)
+    1 - Adicione suas alterações ao Stage (preparação para commit):
+        * Na aba Source Control, veja as alterações listadas em "Changes".
+        * Clique no + ao lado de cada arquivo para adicioná-lo ao Stage (ou no + de "Changes" para adicionar todos).
+
+    2 - Faça um Commit:
+        * Digite uma mensagem descritiva no campo de mensagem (ex: "Adiciona funcionalidade X").
+        * Clique no ✓ (ou Ctrl + Enter) para confirmar o commit.
+
+    3 - Envie (Push) para o GitHub:
+        * Clique nos três pontos (...) na aba Source Control e selecione Push.
+        * Ou use o terminal:
+          git push origin main
+          (Novamente, substitua main pelo nome da sua branch, se necessário.)
+
+------------------------------------------------------------------------------------------------------------------------
+
+Atalhos úteis no VS Code!!!
+
+    * Ctrl + Shift + G: Abre o Source Control.
+
+    * Ctrl + Enter: Confirma o commit (após digitar a mensagem).
+
+    * F1 + Git: Pull ou Git: Push: Comandos rápidos.
